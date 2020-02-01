@@ -13,7 +13,7 @@ function getNews(topic){
         console.log(this.status);
         console.log(this.readyState);
         if(this.status ==200 && this.readyState==4){
-            console.log(this.responseText);
+         
             //convert String to JSON
             var newsData = JSON.parse(this.responseText);
 
