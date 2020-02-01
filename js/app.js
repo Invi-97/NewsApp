@@ -1,7 +1,7 @@
 function getNews(topic){
     console.log(topic);
 
-    //var key="6efb36d0b72c4cfbb917ad4c0410c8e2";
+   
     var url = "https://newsapi.org/v2/top-headlines?country=us&category="+topic+"&apiKey=6efb36d0b72c4cfbb917ad4c0410c8e2";
 
     var xmlHTTPRequest = new XMLHttpRequest();
