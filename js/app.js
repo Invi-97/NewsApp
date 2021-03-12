@@ -44,4 +44,4 @@ function getNews(topic){
     }
 }
 
-getNews("politics");
+getNews("global");
